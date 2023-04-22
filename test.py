@@ -7,4 +7,6 @@ def test_isprime():
 
 
 def test_fibonacci():
-    assert fibonacci(1) == 0
+    assert fibonacci(1) == 1
+    assert fibonacci(8) == 21
+    assert fibonacci(9) == 34
